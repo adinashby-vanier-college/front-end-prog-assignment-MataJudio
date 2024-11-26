@@ -1,0 +1,148 @@
+.product-info {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product-name{
+    text-align: center;
+    background-color:#f7f7f7;
+    font-weight: bold;
+    height:50px;
+    vertical-align: middle;
+    padding-top: 20px;
+    margin:0 auto;
+}
+* {
+    font-family: sans-serif;
+
+}
+.box{
+    border: 4px solid black;
+    width: 800px;
+    height: 400px;
+}
+#tag {
+    background-color: #eb302d ;
+    color: white;
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    padding-top: 8px;
+    text-align: center;
+    height: 20px;
+    width: 10%;
+    position: absolute;
+    left: 65px;
+    top: 95px;
+    overflow: visible;
+}
+body{
+    padding: 100px;
+}
+.optional-shipping {
+    color: #b3b7ba;
+    font-size: 0.75rem;
+    letter-spacing: -0.5px;
+    width:50%;
+    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: bold;
+}
+#product-details {
+    font-size: 1rem;
+    font-weight:700;
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    margin-left: 22px;
+    padding-top: 10px;
+
+}
+#inner-first-box{
+    width:33%;
+    padding-top: 10px;
+    padding-left: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:5px;
+}
+#price {
+    width: 50%;
+    font-weight:700;
+    font-size: 1.4rem;
+    vertical-align: middle;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    
+}
+.copy {
+    padding-top:0;
+    margin-top: 0;
+}
+.more-info {
+    text-decoration: underline;
+    flex-wrap:nowrap;
+    width:100%;
+}
+.color-options {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
+    width: 60%;
+} 
+.color-box {
+    width: 20px;
+    height: 20px;
+
+}
+.one {
+    background-color: black;
+    
+}
+.two {
+    background-color: #2e6ee2;
+}
+.three {
+    background-color: #ef2e32;
+}
+.four {
+    background-color: #f0be20;
+}
+.five {
+    background-color: #90cc1f;
+}
+.six {
+    background-color: #875113;
+}
+#inner-second-box {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom:5px;
+    padding-top: 10px;
+}
+#inner-second-box ul {
+    margin-top: 0;
+    padding-top: 0;
+
+}
+#add-to-cart{
+    width: 100%;
+}
+#submit {
+    text-decoration: none;
+    text-shadow: none;
+    border: none;
+    border-top: 4px solid black;
+    background: none;
+    width: 100%;
+    height: 68px;
+    
+}
+#submit:hover {
+    background-color: black;
+    color: white;
+}
